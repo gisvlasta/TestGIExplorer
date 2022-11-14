@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Title>$(AssemblyName)</Title>
+    <Version>1.1.0</Version>
+    <Authors>Vasilis Vlastaras</Authors>
+    <Company>TupleGeo</Company>
+    <Description>TupleGeo's library for building applications.</Description>
+    <Copyright>Copyright © 2015 - 2022, TupleGeo.</Copyright>
+    <PackageProjectUrl>https://github.com/TupleGeo/base</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TupleGeo/base</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TupleGeo.General\src\TupleGeo.General.csproj" />
+  </ItemGroup>
+
+</Project>

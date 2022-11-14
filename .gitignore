@@ -1,0 +1,16 @@
+
+.vs
+
+/src/TestGIExplorer/src/bin
+/src/TestGIExplorer/src/obj
+
+/src/TupleGeo.Apps/src/bin
+/src/TupleGeo.Apps/src/obj
+
+/src/TupleGeo.Apps.Presentation/src/bin
+/src/TupleGeo.Apps.Presentation/src/obj
+
+/src/TupleGeo.General/src/bin
+/src/TupleGeo.General/src/obj
+
+

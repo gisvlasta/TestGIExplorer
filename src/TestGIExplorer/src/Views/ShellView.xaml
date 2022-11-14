@@ -1,0 +1,30 @@
+﻿<Window x:Class="TestGIExplorer.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestGIExplorer"
+        xmlns:views="clr-namespace:TestGIExplorer.Views"
+        mc:Ignorable="d"
+        Title="ShellView"
+        Height="500"
+        Width="800">
+  
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="60*" />
+      <ColumnDefinition Width="300" />
+    </Grid.ColumnDefinitions>
+
+    <!--<views:UsersView Grid.Column="0"
+                     HorizontalAlignment="Stretch"
+                     VerticalAlignment="Stretch" />
+    
+    <views:UserView Grid.Column="1"
+                    HorizontalAlignment="Stretch"
+                    Margin="0,4,0,0"
+                    VerticalAlignment="Top" />-->
+    
+  </Grid>
+
+</Window>

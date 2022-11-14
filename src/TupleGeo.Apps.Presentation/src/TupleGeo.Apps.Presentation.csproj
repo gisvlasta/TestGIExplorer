@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Title>$(AssemblyName)</Title>
+    <Version>1.1.0</Version>
+    <Authors>Vasilis Vlastaras</Authors>
+    <Company>TupleGeo</Company>
+    <Description>TupleGeo's library for building WPF applications.</Description>
+    <Copyright>Copyright © 2015 - 2022, TupleGeo.</Copyright>
+    <PackageProjectUrl>https://github.com/TupleGeo/base</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TupleGeo/base</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TupleGeo\Apps\Presentation\Commands\ActionCommand.cs" />
+    <Compile Remove="TupleGeo\Apps\Presentation\Observers\ChangesObserver.cs" />
+    <Compile Remove="TupleGeo\Apps\Presentation\Observers\IChangesObserverMethods{T}.cs" />
+    <Compile Remove="TupleGeo\Apps\Presentation\Observers\PropertyObserver{T}.cs" />
+    <Compile Remove="TupleGeo\Apps\Presentation\Observers\WeakEventManager.cs" />
+    <Compile Remove="TupleGeo\Apps\Presentation\Observers\WeakEventManager{TEventArgs}.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TupleGeo\Apps\Presentation\Commands\ActionCommand.cs" />
+    <None Include="TupleGeo\Apps\Presentation\Observers\ChangesObserver.cs" />
+    <None Include="TupleGeo\Apps\Presentation\Observers\IChangesObserverMethods{T}.cs" />
+    <None Include="TupleGeo\Apps\Presentation\Observers\PropertyObserver{T}.cs" />
+    <None Include="TupleGeo\Apps\Presentation\Observers\WeakEventManager.cs" />
+    <None Include="TupleGeo\Apps\Presentation\Observers\WeakEventManager{TEventArgs}.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TupleGeo.Apps\src\TupleGeo.Apps.csproj" />
+    <ProjectReference Include="..\..\TupleGeo.General\src\TupleGeo.General.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Authors>Vasilis Vlastaras</Authors>
+    <Company>TupleGeo</Company>
+    <Description>Generic foundation for building .NET Applications.</Description>
+    <Copyright>Copyright © 2009 - 2022, TupleGeo.</Copyright>
+    <PackageProjectUrl>https://github.com/TupleGeo/base</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TupleGeo/base</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <FileVersion></FileVersion>
+    <AssemblyVersion></AssemblyVersion>
+    <IncludeSymbols>False</IncludeSymbols>
+    <Title>$(AssemblyName)</Title>
+    <Version>2.2.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TupleGeo\General\Utilities\MimeTypesHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TupleGeo\General\Attributes\" />
+    <Folder Include="TupleGeo\General\ComponentModel\" />
+    <Folder Include="TupleGeo\General\Data\" />
+    <Folder Include="TupleGeo\General\FileSystem\" />
+    <Folder Include="TupleGeo\General\FileTypes\" />
+    <Folder Include="TupleGeo\General\Linq\Expressions\" />
+    <Folder Include="TupleGeo\General\Text\" />
+    <Folder Include="TupleGeo\General\Serialization\" />
+    <Folder Include="TupleGeo\General\Security\" />
+    <Folder Include="TupleGeo\General\Reflection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TupleGeo\General\Utilities\MimeTypesHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

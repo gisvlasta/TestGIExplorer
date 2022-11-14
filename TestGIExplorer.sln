@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleGeo.Apps", "src\TupleGeo.Apps\src\TupleGeo.Apps.csproj", "{36405F38-B700-4DCD-923F-50024E67A117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleGeo.Apps.Presentation", "src\TupleGeo.Apps.Presentation\src\TupleGeo.Apps.Presentation.csproj", "{5ABEEF39-74EA-429C-A8AD-749A16A54A27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleGeo.General", "src\TupleGeo.General\src\TupleGeo.General.csproj", "{86A91735-AE6B-48EE-8104-744EACEB5874}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGIExplorer", "src\TestGIExplorer\src\TestGIExplorer.csproj", "{BC651F84-A870-4F2D-A647-51F97E0E39E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36405F38-B700-4DCD-923F-50024E67A117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36405F38-B700-4DCD-923F-50024E67A117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36405F38-B700-4DCD-923F-50024E67A117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36405F38-B700-4DCD-923F-50024E67A117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABEEF39-74EA-429C-A8AD-749A16A54A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABEEF39-74EA-429C-A8AD-749A16A54A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABEEF39-74EA-429C-A8AD-749A16A54A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABEEF39-74EA-429C-A8AD-749A16A54A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A91735-AE6B-48EE-8104-744EACEB5874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A91735-AE6B-48EE-8104-744EACEB5874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A91735-AE6B-48EE-8104-744EACEB5874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A91735-AE6B-48EE-8104-744EACEB5874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC651F84-A870-4F2D-A647-51F97E0E39E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC651F84-A870-4F2D-A647-51F97E0E39E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC651F84-A870-4F2D-A647-51F97E0E39E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC651F84-A870-4F2D-A647-51F97E0E39E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21634218-077D-42D2-8C76-C6F8008F7B40}
+	EndGlobalSection
+EndGlobal
